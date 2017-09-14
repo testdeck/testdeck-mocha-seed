@@ -4,6 +4,16 @@
 import { Unit } from "../src/index";
 import { assert } from "chai";
 
+describe("vanilla bdd", () => {
+    it("test", () => {
+    });
+});
+
+suite("vanilla tdd", () => {
+    test("test", () => {
+    });
+});
+
 @suite class UnitTest extends Unit {
     @test "big is true with big number"() {
         assert(this.big(200));
@@ -12,3 +22,10 @@ import { assert } from "chai";
         assert(!this.big(50));
     }
 }
+
+suite("nested class suite", () => {
+    @suite class NestedTest {
+        @test "a test"() {
+        }
+    }
+});
