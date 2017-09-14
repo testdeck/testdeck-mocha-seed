@@ -27,6 +27,7 @@
     "mocha-typescript": "*",
     "nyc": "*",
     "source-map-support": "*",
+    "ts-node": "^3.3.0",
     "typescript": "*"
   },
   "nyc": {
