@@ -4,15 +4,22 @@
 import { Unit } from "../src/index";
 import { assert } from "chai";
 
-declare var console;
+declare var console, setTimeout;
 
-before("start server", () => {
+function doWork(): Promise<void> {
+    return new Promise(resolve => setTimeout(resolve, 1000));
+}
+before("start server", async () => {
     // Run express?
     console.log("start server");
+    await doWork();
+    console.log("server started");
 });
-after("kill server", () => {
+after("kill server", async () => {
     // Kill the server.
     console.log("kill server");
+    await doWork();
+    console.log("server killed");
 });
 
 describe("vanilla bdd", () => {
