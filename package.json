@@ -30,7 +30,6 @@
     "mocha": "*",
     "nyc": "*",
     "source-map-support": "*",
-    "ts-node": "*",
     "typescript": "*"
   },
   "nyc": {
