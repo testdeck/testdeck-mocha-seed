@@ -1,5 +1,5 @@
 {
-  "name": "mocha-typescript-seed",
+  "name": "testdeck-mocha-seed",
   "version": "0.0.0",
   "private": true,
   "description": "A project with mocha-typescript enabled",
@@ -20,15 +20,17 @@
     "url": "https://github.com/pana-cc/mocha-typescript-seed/issues"
   },
   "homepage": "https://github.com/pana-cc/mocha-typescript-seed#readme",
+  "dependencies": {
+  },
   "devDependencies": {
-    "@testdeck/mocha": "latest",
     "@types/chai": "*",
     "@types/mocha": "*",
+    "@testdeck/mocha": "*",
     "chai": "*",
     "mocha": "*",
     "nyc": "*",
     "source-map-support": "*",
-    "ts-node": "^3.3.0",
+    "ts-node": "*",
     "typescript": "*"
   },
   "nyc": {
