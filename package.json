@@ -21,11 +21,11 @@
   },
   "homepage": "https://github.com/pana-cc/mocha-typescript-seed#readme",
   "devDependencies": {
+    "@testdeck/mocha": "latest",
     "@types/chai": "*",
     "@types/mocha": "*",
     "chai": "*",
     "mocha": "*",
-    "mocha-typescript": "*",
     "nyc": "*",
     "source-map-support": "*",
     "ts-node": "^3.3.0",
