@@ -2,24 +2,24 @@
   "name": "testdeck-mocha-seed",
   "version": "0.0.0",
   "private": true,
-  "description": "A project with mocha-typescript enabled",
+  "description": "A seed for @testdeck/mocha",
   "main": "index.js",
   "scripts": {
     "pretest": "tsc",
     "test": "nyc mocha",
-    "watch": "mocha-typescript-watch",
+    "watch": "testdeck-watch",
     "prepare": "tsc"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pana-cc/mocha-typescript-seed.git"
+    "url": "git+https://github.com/testdeck/testdeck-mocha-seed.git"
   },
   "author": "",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/pana-cc/mocha-typescript-seed/issues"
+    "url": "https://github.com/testdeck/testdeck-mocha-seed/issues"
   },
-  "homepage": "https://github.com/pana-cc/mocha-typescript-seed#readme",
+  "homepage": "https://www.testdeck.org/",
   "dependencies": {},
   "devDependencies": {
     "@types/chai": "*",
