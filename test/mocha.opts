@@ -1,3 +1,2 @@
 --require source-map-support/register
---require ts-node/register
-test/**/*test.ts
+--recursive test

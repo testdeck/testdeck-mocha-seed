@@ -29,7 +29,6 @@
     "mocha": "*",
     "nyc": "*",
     "source-map-support": "*",
-    "ts-node": "*",
     "tslint": "*",
     "typescript": "*"
   },
