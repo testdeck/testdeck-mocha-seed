@@ -1,15 +1,17 @@
-# mocha-typescript-seed
+# testdeck-mocha-seed
 
-[![Build Status](https://travis-ci.org/pana-cc/mocha-typescript-seed.svg?branch=master)](https://travis-ci.org/pana-cc/mocha-typescript-seed)
+[![Build Status](https://travis-ci.org/testdeck/testdeck-mocha-seed.svg?branch=master)](https://travis-ci.org/testdeck/testdeck-mocha-seed)
 
-A project with mocha-typescript enabled testing.
-To run all tests and produce a test coverage:
+A seed for you to start testing using @testdeck/mocha.
+
+To run all tests with test coverage run
+
 ```
 npm test
 ```
 
-To run the test along TypeScript with watch:
+You can also start a watcher and continue development. The tests will be rerun as you make changes to your sources.
+
 ```
 npm run watch
 ```
-Then you can make incremental changes and the tests will rerun accordingly.

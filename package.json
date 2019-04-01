@@ -20,8 +20,7 @@
     "url": "https://github.com/pana-cc/mocha-typescript-seed/issues"
   },
   "homepage": "https://github.com/pana-cc/mocha-typescript-seed#readme",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/chai": "*",
     "@types/mocha": "*",
@@ -30,6 +29,8 @@
     "mocha": "*",
     "nyc": "*",
     "source-map-support": "*",
+    "ts-node": "*",
+    "tslint": "*",
     "typescript": "*"
   },
   "nyc": {
