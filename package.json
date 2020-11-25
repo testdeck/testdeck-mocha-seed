@@ -22,15 +22,15 @@
   "homepage": "https://www.testdeck.org/",
   "dependencies": {},
   "devDependencies": {
-    "@types/chai": "*",
-    "@types/mocha": "*",
-    "@testdeck/mocha": "*",
-    "chai": "*",
-    "mocha": "*",
-    "nyc": "*",
-    "source-map-support": "*",
-    "tslint": "*",
-    "typescript": "*"
+    "@types/chai": "latest",
+    "@types/mocha": "latest",
+    "@testdeck/mocha": "latest",
+    "chai": "latest",
+    "mocha": "latest",
+    "nyc": "latest",
+    "source-map-support": "latest",
+    "tslint": "latest",
+    "typescript": "latest"
   },
   "nyc": {
     "check-coverage": true,
